@@ -31,7 +31,7 @@ function mintNFT(nftName, nftDescription, nftImage, otherMetadata = {}) {
           console.log(`${key}:`, nft[key]);
         }
       }
-      console.log(""); // Add a blank line after each NFT's metadata
+      console.log(""); // Adds a blank line after each NFT's metadata (just for aesthetics)
     }
   }  
   
@@ -44,8 +44,8 @@ function mintNFT(nftName, nftDescription, nftImage, otherMetadata = {}) {
   let nftStorage = [];
   
   // Example usage:
-  const nft1 = mintNFT("Cool Crypto Cat", "A rare and adorable cat NFT", "https://.../cat.png", { owner: "John Doe" });
-  const nft2 = mintNFT("Space Ape Odyssey", "An ape astronaut exploring the cosmos", "https://.../ape.jpg");
+  //const nft1 = mintNFT("Cool Crypto Cat", "A rare and adorable cat NFT", "https://.../cat.png", { owner: "John Doe" });
+  //const nft2 = mintNFT("Space Ape Odyssey", "An ape astronaut exploring the cosmos", "https://.../ape.jpg");
   
   listNFTs(); // Print all minted NFTs
   console.log("Total NFTs:", getTotalSupply());
